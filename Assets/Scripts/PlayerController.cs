@@ -40,12 +40,12 @@ public class PlayerController : MonoBehaviour
 
     private void LateUpdate()
     {
-        /*
+        
         if (canLook)
         {
             CameraLook();
         }
-        */
+        
     }
 
     void CameraLook()//마우스 움직임에 따른 움직임

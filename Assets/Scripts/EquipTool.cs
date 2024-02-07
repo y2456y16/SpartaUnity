@@ -16,15 +16,16 @@ public class EquipTool : Equip
     public bool doesDealDamage;
     public int damage;
 
+    private GameObject PlayerMove;
 
-    private void Awake()
+    private void Start()
     {
- 
+        //PlayerMove = GameObject.Find("Armature");
     }
 
     private void FixedUpdate()
     {
-        
+        //transform.localEulerAngles = PlayerMove.transform.localEulerAngles;
     }
 
 }
